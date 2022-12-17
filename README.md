@@ -47,5 +47,5 @@ export default MyComponent;
 | Data            | Required | An array of objects `{ name: IProvincesNames, color: string }` to highlight a province. |
 | height          | 100%     | The height of the map component.                                                        |
 | width           | 100%     | The width of the map component.                                                         |
-| backgroundColor | #88a4bc  | The color of provinces which are not selected.                                          |
+| backgroundColor | #88a4bc  | The color of provinces which are not highlighted.                                       |
 | className       | Optional |
