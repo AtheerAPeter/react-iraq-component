@@ -43,7 +43,6 @@ export interface IraqMapProps {
   backgroundColor?: string;
   width?: number | string;
   height?: number | string;
-  onClick?: (value: IProvincesNames) => void;
 }
 export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
   return (
@@ -59,7 +58,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
         }}
       >
         <path
-          onClick={() => props?.onClick?.("diyala")}
           fill={MapHelper.getProvinceColor(
             "diyala",
             props.data,
@@ -76,7 +74,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("anbar")}
           fill={MapHelper.getProvinceColor(
             "anbar",
             props.data,
@@ -93,7 +90,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("babylon")}
           fill={MapHelper.getProvinceColor(
             "babylon",
             props.data,
@@ -110,7 +106,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("sulaymaniyah")}
           fill={MapHelper.getProvinceColor(
             "sulaymaniyah",
             props.data,
@@ -127,7 +122,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("wasit")}
           fill={MapHelper.getProvinceColor(
             "wasit",
             props.data,
@@ -144,7 +138,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("maysan")}
           fill={MapHelper.getProvinceColor(
             "maysan",
             props.data,
@@ -161,7 +154,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("dhi qar")}
           fill={MapHelper.getProvinceColor(
             "dhi qar",
             props.data,
@@ -178,7 +170,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("al-qadisiyyah")}
           fill={MapHelper.getProvinceColor(
             "al-qadisiyyah",
             props.data,
@@ -195,7 +186,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("muthanna")}
           fill={MapHelper.getProvinceColor(
             "muthanna",
             props.data,
@@ -212,7 +202,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("basra")}
           fill={MapHelper.getProvinceColor(
             "basra",
             props.data,
@@ -229,7 +218,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("baghdad")}
           fill={MapHelper.getProvinceColor(
             "baghdad",
             props.data,
@@ -246,7 +234,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("najaf")}
           fill={MapHelper.getProvinceColor(
             "najaf",
             props.data,
@@ -263,7 +250,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("kirkuk")}
           fill={MapHelper.getProvinceColor(
             "kirkuk",
             props.data,
@@ -280,7 +266,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("karbala")}
           fill={MapHelper.getProvinceColor(
             "karbala",
             props.data,
@@ -297,7 +282,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("erbil")}
           fill={MapHelper.getProvinceColor(
             "erbil",
             props.data,
@@ -314,7 +298,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("nineveh")}
           fill={MapHelper.getProvinceColor(
             "nineveh",
             props.data,
@@ -331,7 +314,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("saladin")}
           fill={MapHelper.getProvinceColor(
             "saladin",
             props.data,
@@ -348,7 +330,6 @@ export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           fill-opacity="1"
         />
         <path
-          onClick={() => props?.onClick?.("duhok")}
           fill={MapHelper.getProvinceColor(
             "duhok",
             props.data,
