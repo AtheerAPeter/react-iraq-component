@@ -1,6 +1,6 @@
 {
   "name": "react-iraq-component",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Iraq map react component",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -43,5 +43,18 @@
   },
   "dependencies": {
     "esbuild": "^0.16.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtheerAPeter/react-iraq-component.git"
+  },
+  "keywords": [
+    "iraq",
+    "map",
+    "SVG",
+    "react",
+    "display",
+    "iraq map",
+    "component"
+  ]
 }

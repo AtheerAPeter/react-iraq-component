@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
-
-export const MapHelper = {
+const MapHelper = {
   getProvinceColor: (
     name: IProvincesNames,
     data: IIraqMap,
@@ -13,14 +12,11 @@ export const MapHelper = {
     );
   },
 };
-
-export type IIraqMap = IProvince[];
-
+type IIraqMap = IProvince[];
 export interface IProvince {
   name: IProvincesNames;
   color: string;
 }
-
 export type IProvincesNames =
   | "baghdad"
   | "basra"
@@ -41,16 +37,14 @@ export type IProvincesNames =
   | "saladin"
   | "sulaymaniyah"
   | "wasit";
-
-interface IraqMapProps {
+export interface IraqMapProps {
   data: IIraqMap;
   className?: string;
   backgroundColor?: string;
   width?: number | string;
   height?: number | string;
 }
-
-const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
+export const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
   return (
     <div className={props?.className}>
       <svg
@@ -79,7 +73,6 @@ const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
           transform="matrix(0.2924,0,0,0.2924,0,0)"
           fill-opacity="1"
         />
-
         <path
           fill={MapHelper.getProvinceColor(
             "anbar",
@@ -357,5 +350,3 @@ const IraqMap: FunctionComponent<IraqMapProps> = (props) => {
     </div>
   );
 };
-
-export default IraqMap;
