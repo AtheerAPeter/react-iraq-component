@@ -42,10 +42,11 @@ export default MyComponent;
 
 ## Props
 
-| Prop            | Default  | Description                                                                                  |
-| --------------- | -------- | -------------------------------------------------------------------------------------------- |
-| Date            | Required | An array of objects `{ name: Type IProvincesNames, color: string }` to highlight a province. |
-| height          | 100%     | The height of the map component.                                                             |
-| width           | 100%     | The width of the map component.                                                              |
-| backgroundColor | #88a4bc  | The color of provinces which are not selected.                                               |
-| className       |          |                                                                                              |
+| Prop            | Default  | Description                                                                              |
+| --------------- | -------- | ---------------------------------------------------------------------------------------- |
+| Date            | Required | An array of objects `{ name: IProvincesNames, color: string }` to highlight a province.  |
+| height          | 100%     | The height of the map component.                                                         |
+| width           | 100%     | The width of the map component.                                                          |
+| backgroundColor | #88a4bc  | The color of provinces which are not selected.                                           |
+| className       | Optional |
+| onClick         | Optional | Will return the name of the province clicked. onClick?: (value: IProvincesNames) => void |
