@@ -1,6 +1,6 @@
 {
   "name": "react-iraq-component",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Iraq map react component",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
